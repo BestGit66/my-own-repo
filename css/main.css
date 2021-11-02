@@ -1,0 +1,45 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+div.container {
+  width: 190px;
+  height: 300px;
+  background-color: rgb(68, 66, 64);
+  padding-top: 20px;
+  border-radius: 8px;
+}
+
+p.n {
+  padding: 10px;
+  color: black;
+  background-color: rgb(228, 207, 117);
+  width: 30px;
+  text-align: center;
+  margin: auto;
+  border-radius: 15px;
+  font-size: 10px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+p.p {
+  color: white;
+  text-align: center;
+}
+
+a {
+  display: block;
+  padding: 20px;
+  text-align: center;
+  color: rgb(228, 207, 117);
+  text-decoration: none;
+}
