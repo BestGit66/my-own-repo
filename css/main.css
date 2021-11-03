@@ -3,43 +3,27 @@
   margin: 0px;
 }
 
-body {
+.container {
   display: flex;
-  justify-content: center;
+  flex-flow: row wrap;
   align-items: center;
-  height: 100vh;
-}
-
-div.container {
-  width: 190px;
-  height: 300px;
-  background-color: rgb(68, 66, 64);
-  padding-top: 20px;
-  border-radius: 8px;
-}
-
-p.n {
-  padding: 10px;
-  color: black;
-  background-color: rgb(228, 207, 117);
-  width: 30px;
-  text-align: center;
-  margin: auto;
-  border-radius: 15px;
-  font-size: 10px;
-  font-weight: bold;
-  margin-bottom: 20px;
-}
-
-p.p {
+  background-color: black;
   color: white;
-  text-align: center;
+  padding: 20px 10px;
+  height: 500px;
 }
 
-a {
-  display: block;
-  padding: 20px;
+.box {
+  display: grid;
+  place-items: center;
+  flex: 1;
+  border: 1px solid white;
   text-align: center;
-  color: rgb(228, 207, 117);
-  text-decoration: none;
+  height: 150px;
+}
+
+@media (max-width: 767px) {
+  .box {
+    flex: 1 0 100%;
+  }
 }
