@@ -3,27 +3,9 @@
   margin: 0px;
 }
 
-.container {
-  display: flex;
-  flex-flow: row wrap;
-  align-items: center;
-  background-color: black;
-  color: white;
-  padding: 20px 10px;
-  height: 500px;
+body {
+  margin: 10px;
 }
 
-.box {
-  display: grid;
-  place-items: center;
-  flex: 1;
-  border: 1px solid white;
-  text-align: center;
-  height: 150px;
-}
 
-@media (max-width: 767px) {
-  .box {
-    flex: 1 0 100%;
-  }
-}
+<table border="1">
