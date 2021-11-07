@@ -4,107 +4,11 @@
 }
 
 body {
-  background: linear-gradient(to right, rgb(10, 204, 218), rgb(188, 221, 230));
-}
-
-.clock {
-  width: 300px;
-  height: 300px;
-  border-radius: 50%;
-  border: 2px solid black;
-  background-color: rgba(255, 255, 255, 0.8);
-  position: relative;
-}
-
-.number {
-  position: absolute;
-  text-align: center;
-  width: 100%;
-  height: 100%;
-}
-
-.hour {
-  background-color: black;
-  width: 80px;
-  height: 7px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translateY(-50%);
-  border-radius: 10px;
-  z-index: 4;
-}
-.minute {
-  background-color: black;
-  width: 110px;
-  height: 7px;
-  position: absolute;
-  top: 48.5%;
-  left: 49%;
-  transform: translateY(-50%);
-  border-radius: 10px;
-  transform-origin: left;
-  transform: rotate(20deg);
-  z-index: 6;
-  border: 1px solid white;
-}
-
-.second {
-  background-color: red;
-  width: 110px;
-  height: 2px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translateY(-50%);
-  border-radius: 49px;
-  transform-origin: left;
-  transform: rotate(50deg);
-  z-index: 1;
-}
-
-.dot {
-  background-color: black;
-  width: 13px;
-  height: 13px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  border-radius: 50%;
-  border: 1px solid rgb(255, 255, 255);
-}
-
-.number1 {
-  transform: rotate(30deg);
-}
-.number2 {
-  transform: rotate(60deg);
-}
-.number3 {
-  transform: rotate(90deg);
-}
-.number4 {
-  transform: rotate(120deg);
-}
-.number5 {
-  transform: rotate(150deg);
-}
-.number6 {
-  transform: rotate(180deg);
-}
-.number7 {
-  transform: rotate(210deg);
-}
-.number8 {
-  transform: rotate(240deg);
-}
-.number9 {
-  transform: rotate(270deg);
-}
-.number10 {
-  transform: rotate(300deg);
-}
-.number11 {
-  transform: rotate(330deg);
+  /*height: 100vh;
+  width: 100vw;
+  background-image: url("../123.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: scroll;
+  background-position: center; */
 }
